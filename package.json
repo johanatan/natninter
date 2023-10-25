@@ -1,6 +1,6 @@
 {
   "name": "@johanatan/natninter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Natural neighbor interpolation",
   "repository": "johanatan/natninter",
   "entry": "src/main.js",
