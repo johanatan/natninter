@@ -36,7 +36,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - uses: actions/download-artifact@v3
         with:
-          name: dist        
+          name: dist     
+          path: dist
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
